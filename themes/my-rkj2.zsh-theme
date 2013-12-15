@@ -23,4 +23,4 @@ CURRENT_DIRECTORY="%{$fg[green]%}%~%{$reset_color%}"
 PROMPT_CHAR="%{$fg[white]%}$ %{$reset_color%}"
 PROMPT='${PROMPT_PREFIX}${DATE_TIME}${SEPARATOR1}${USER_NAME}${SEPARATOR2}${HOST_NAME}${SEPARATOR3}${CURRENT_DIRECTORY} $(mygit)
 $PROMPT_CHAR'
-PS2=$' \e[0;34m%}%B>%{\e[0m%}%b '
+PROMPT2="%{$fg[white]%}> %{$reset_color%}"
