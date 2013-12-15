@@ -1,5 +1,6 @@
 function theme
 {
+    unset RPROMPT PROMPT PROMPT2 PROMPT3 PROMPT4 RPROMPT2
     if [ -z "$1" ] || [ "$1" = "random" ]; then
 	themes=($ZSH/themes/*zsh-theme)
 	N=${#themes[@]}
