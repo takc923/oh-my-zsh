@@ -23,6 +23,7 @@ function theme_preview() {
     THEME=$1
     THEME_NAME=`echo $THEME | sed s/\.zsh-theme$//`
     print "$fg[blue]${(l.((${COLUMNS}-${#THEME_NAME}-5))..─.)}$reset_color $THEME_NAME $fg[blue]───$reset_color"
+    unset PROMPT RPROMPT
     source "$THEMES_DIR/$THEME"
     cols=$(tput cols)
     print -P "$PROMPT                                                                                      $RPROMPT"
