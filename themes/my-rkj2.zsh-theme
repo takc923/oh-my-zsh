@@ -1,3 +1,4 @@
+# this theme depends on git plugin.
 ZSH_THEME_GIT_PROMPT_ADDED="%{$fg[cyan]%}+"
 ZSH_THEME_GIT_PROMPT_MODIFIED="%{$fg[yellow]%}*"
 ZSH_THEME_GIT_PROMPT_DELETED="%{$fg[red]%}x"
